@@ -1,0 +1,22 @@
+﻿@using System.Security.Claims
+<!DOCTYPE html>
+ 
+<html>
+<head>
+    <title>Welcome</title>
+</head>
+<body>
+<div>
+    <h1>Welcome @User.Identity.Name</h1>
+    <div>
+        <h2>Claims</h2>
+        @foreach (var claim in ((ClaimsPrincipal) User).Claims)
+        {
+            <div>@claim.Type : @claim.Value</div>
+        }
+    </div>
+    <br/>
+    @Html.ActionLink("Log Out", "SignOut", "Auth")
+</div>
+</body>
+</html>

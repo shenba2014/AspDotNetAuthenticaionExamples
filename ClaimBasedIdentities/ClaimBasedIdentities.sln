@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClaimBasedIdentities", "ClaimBasedIdentities\ClaimBasedIdentities.csproj", "{BCE6E104-9FE6-4FCA-AD0F-79C662F236C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCE6E104-9FE6-4FCA-AD0F-79C662F236C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCE6E104-9FE6-4FCA-AD0F-79C662F236C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCE6E104-9FE6-4FCA-AD0F-79C662F236C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCE6E104-9FE6-4FCA-AD0F-79C662F236C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35190F0B-FD8E-4463-9233-EB90ECA75C32}
+	EndGlobalSection
+EndGlobal
