@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityDescriptor ID="_70a250d5-e3e1-494a-a392-7ed1736f3180" entityID="http://shenba.cnblogs.com/" xmlns="urn:oasis:names:tc:SAML:2.0:metadata">
+	<RoleDescriptor xsi:type="fed:SecurityTokenServiceType" protocolSupportEnumeration="http://docs.oasis-open.org/wsfed/federation/200706"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fed="http://docs.oasis-open.org/wsfed/federation/200706">
+		<KeyDescriptor use="signing">
+			<KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+				<X509Data>
+					<X509Certificate>
+						MIIDDTCCAfWgAwIBAgIJALWn4CKn22AgMA0GCSqGSIb3DQEBBQUAMB0xGzAZBgNV
+						BAMMEnNoZW5iYS5jbmJsb2dzLmNvbTAeFw0xODAxMTQxNDA4MDJaFw0yODAxMTIx
+						NDA4MDJaMB0xGzAZBgNVBAMMEnNoZW5iYS5jbmJsb2dzLmNvbTCCASIwDQYJKoZI
+						hvcNAQEBBQADggEPADCCAQoCggEBAKylcXd5q7a2H8i7wROyyIQWzFMpZOiZpw1G
+						mZCPb6DJH0yvzTXxdOSNW7FEhAT5GcrdRnQWUfSdkvt12D0RQbqR6zSA29LA93fL
+						LDsmonGV91M9FzqP5L9n4ZJX+87Jm7k4E7G4Y9/rWsKHhLv+pVytZ8nb9llHe4PQ
+						m98pEuipIqyPDZGpsMiNy1GEn0pHDR6O9NqsoK9vcBfnzkbh4FVKapwNL4X5NiM7
+						cIzyvztf4HEeOIyFyNtLmy5Amu+HpOdCZCe/xtsIGRl6ed++/vWSAB8o2WzBty8C
+						EJKCmU0RBVxxxXtvYBpZcxR8OXOJPArmyGaueALFQQwV6SppnB8CAwEAAaNQME4w
+						HQYDVR0OBBYEFB25AYelAejp6a1dkmrkm4Mjf8alMB8GA1UdIwQYMBaAFB25AYel
+						Aejp6a1dkmrkm4Mjf8alMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEFBQADggEB
+						ADgVjEVxuYwySMBSIXRBIZMefy354w403HibdnojXL7VmS16EeOoyuKeBjPM0eKF
+						mb3KF1OHx5Mi9RF7L1F89/bFEMcY4HDrlz0A77c9nvD/XlNJm+gNFpNV90vFIZXY
+						yVQPjGj4OeGWGP4g+6fiekXS2prufwsaCjKIPlUWGTF6H3TtmVx0srzTbwRppLl2
+						P1EVOgWIr78TVxq489RZ7xMqJTtZe4nONqO82/a1LRptlZ6NFAWEDxkUtLTNUx2z
+						gIY4FEzSAjmh+miE7Xmss+VSPqhENM3OynczkqTH72LPOOfs6K01wut96YGkxf/T
+						qjJ0Kb11S11FDkPA3owsCG0=
+					</X509Certificate>
+				</X509Data>
+			</KeyInfo>
+		</KeyDescriptor>
+		<ContactPerson contactType="administrative">
+			<GivenName>junwen.luo</GivenName>
+		</ContactPerson>
+		<fed:ClaimTypesOffered>
+			<auth:ClaimType Uri="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name" Optional="true" xmlns:auth="http://docs.oasis-open.org/wsfed/authorization/200706">
+				<auth:DisplayName>Name</auth:DisplayName>
+				<auth:Description>The name of the subject.</auth:Description>
+			</auth:ClaimType>
+			<auth:ClaimType Uri="http://schemas.microsoft.com/ws/2008/06/identity/claims/role" Optional="true" xmlns:auth="http://docs.oasis-open.org/wsfed/authorization/200706">
+				<auth:DisplayName>Role</auth:DisplayName>
+				<auth:Description>The role of the subject.</auth:Description>
+			</auth:ClaimType>
+		</fed:ClaimTypesOffered>
+		<fed:SecurityTokenServiceEndpoint>
+			<EndpointReference xmlns="http://www.w3.org/2005/08/addressing">
+				<Address>http://shenba.cnblogs.com/</Address>
+			</EndpointReference>
+		</fed:SecurityTokenServiceEndpoint>
+		<fed:PassiveRequestorEndpoint>
+			<EndpointReference xmlns="http://www.w3.org/2005/08/addressing">
+				<Address>http://shenba.cnblogs.com/</Address>
+			</EndpointReference>
+		</fed:PassiveRequestorEndpoint>
+	</RoleDescriptor>
+</EntityDescriptor>
