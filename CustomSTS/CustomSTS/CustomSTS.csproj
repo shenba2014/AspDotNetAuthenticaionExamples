@@ -126,9 +126,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
-    <Content Include="shenba.cnblogs.com.key" />
     <None Include="packages.config" />
-    <Content Include="shenba.cnblogs.com.cer" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Account\Login.cshtml" />
