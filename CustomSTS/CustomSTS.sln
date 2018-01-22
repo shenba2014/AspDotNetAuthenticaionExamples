@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomSTS", "CustomSTS\CustomSTS.csproj", "{EBDED747-B7E3-40A9-B7FE-20C1491D1B1C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomSTS.RelyingParty", "CustomSTS.RelyingParty\CustomSTS.RelyingParty.csproj", "{6359D4A5-5532-4A3E-BD59-09E82DC216CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{EBDED747-B7E3-40A9-B7FE-20C1491D1B1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBDED747-B7E3-40A9-B7FE-20C1491D1B1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBDED747-B7E3-40A9-B7FE-20C1491D1B1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6359D4A5-5532-4A3E-BD59-09E82DC216CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6359D4A5-5532-4A3E-BD59-09E82DC216CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6359D4A5-5532-4A3E-BD59-09E82DC216CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6359D4A5-5532-4A3E-BD59-09E82DC216CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

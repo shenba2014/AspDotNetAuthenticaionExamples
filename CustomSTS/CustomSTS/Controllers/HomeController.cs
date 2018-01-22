@@ -26,7 +26,7 @@ namespace CustomSTS.Controllers
 				if (action == SignIn)
 				{
 					var formData = ProcessSignIn(Request.Url, (ClaimsPrincipal) User);
-					return new ContentResult() { ContentType = "text/html" };
+					return new ContentResult() { ContentType = "text/html", Content = formData };
 				}
 			}
 			return View();
